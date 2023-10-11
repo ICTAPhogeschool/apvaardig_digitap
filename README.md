@@ -1,5 +1,5 @@
 # Apvaardig_digitap
-## scheme
+## Scheme
  ![plug-in scheme](./docs/img/apvaardig_digitap.drawio.png)
 ## Apvaardig  digitap  Moodle plug-in
 Moodle Plugin block <strong>apvaardig_digitap</strong> is a plugin block for Moodle that adds functionality to the Moodle platform.
@@ -27,14 +27,47 @@ If you encounter any issues or have any questions about Moodle Plugin Name, plea
 # Settings
 Configuration of connection to the extern database. If you have any issue with the connection please check first the firewall. 
  ![plug-in scheme](./docs/img/plugin_settings.png)
-## plugin-settings
+## Plugin-settings
 # Data model
 This plug-in use automapper-plus as extra library to map Models and ModelDtos.
 <br>
 [Go to the automapper repository](https://github.com/mark-gerarts/automapper-plus)
+
 ## Models and ModelDtos
-## Data Model from extern database
-## intern data modelDto mapping
+## Extern data Model from database
+This is the object or table row reponse model from the extern database.
+This is very important when the plug-in wil map to a modelDto object.
+The name and the property type is also very important.
+<br>
+<br>
+example for the result object from the database:
+
+```php
+class ResultModel {
+    public ?string $uniq;
+    public int $insert_timestamp;
+    public int $update_timestamp;
+    public ?string $sam;
+    public ?string $categorie;
+    public ?string $onderwerp;
+    public ?string $resultaat;
+    public int $punten_max;
+    public int $sortnr;
+}
+
+```
+## Intern data modelDto
+
+```php
+class ResultDto {
+    public ?string $categorie;
+    public ?string $onderwerp;
+    public ?string $resultaat;
+    public int $punten_max;
+    public bool $resultIsNumber = false;
+}
+
+```
 
 # Languages
 
