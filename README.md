@@ -24,6 +24,17 @@ Configure the settings as desired.
 Click Save changes to save the settings.
 Support
 If you encounter any issues or have any questions about Moodle Plugin Name, please contact the plugin developer at <strong>John S.</strong> p056948@ap.be.
+# Settings
+Configuration of connection to the extern database. If you have any issue with the connection please check first the firewall. 
+ ![plug-in scheme](./docs/img/plugin_settings.png)
+## plugin-settings
+# Data model
+This plug-in use automapper-plus as extra library to map Models and ModelDtos.
+## Models and ModelDtos
+## Data Model from extern database
+## intern data modelDto mapping
+
+# Languages
 
 # License
 Moodle Plugin apvaardig_digitap is licensed under the GNU GPL v3 or later. See the LICENSE file for details.
