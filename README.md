@@ -30,11 +30,18 @@ Configuration of connection to the extern database. If you have any issue with t
 ## plugin-settings
 # Data model
 This plug-in use automapper-plus as extra library to map Models and ModelDtos.
+<br>
+[Go to the automapper repository](https://github.com/mark-gerarts/automapper-plus)
 ## Models and ModelDtos
 ## Data Model from extern database
 ## intern data modelDto mapping
 
 # Languages
+
+The default language of the plug-in is English but it is also compatible with Dutch. The language wil be change when the moodle framework has been global changed.
+If you want this plug-in in an othre language, create then a directory with one file in the <strong>lang</strong> directory.
+<br>
+See Dutch(nl) file as example.
 
 # License
 Moodle Plugin apvaardig_digitap is licensed under the GNU GPL v3 or later. See the LICENSE file for details.
