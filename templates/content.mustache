@@ -1,0 +1,46 @@
+
+{{!
+    This file is part of Moodle - apvaardig digitap block.
+    This is used to showing data of current user. 
+    This template wil be only rendering when the current user has data. 
+}}
+{{!
+    @template block_apvaardig_digitap/content
+
+    Template purpose and description.
+
+    Classes required for JS:
+    * none
+
+    Data attributes required for JS:
+    * none
+
+    Context variables required for this template:
+    * array of results
+}}
+  {{#rootData}}
+  <h6 style="text-decoration: underline">{{name}}</h6>
+    {{!--  Groups of current item --}}
+    {{#groups}}
+    <div class="d-flex flex-row">
+      <div class="flex-grow-1">
+        <div>{{onderwerp}}</div>
+        {{!--  if property is not a number --}}
+        {{^resultIsNumber}}
+          <div class="badge badge-secondary">{{resultaat}}</div>
+        {{/resultIsNumber}}
+        {{!--  if property is number--}}
+        {{#resultIsNumber}}
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: {{resultaat}}%;" aria-valuenow="{{resultaat}}" aria-valuemin="0" aria-valuemax="100">{{resultaat}}</div>
+          </div>       
+        {{/resultIsNumber}} 
+      </div>
+    </div>
+    {{/groups}}
+    {{!--  show underline of item --}}
+    {{#showBreakLine}}
+      <hr>
+    {{/showBreakLine}}
+  {{/rootData}}
+
