@@ -5,7 +5,7 @@
 Moodle Plugin block <strong>apvaardig_digitap</strong> is a plugin block for Moodle that adds functionality to the Moodle platform.
 
 Installation
-Download the plugin from the Moodle plugins directory or from the GitHub repository.
+Download the plugin from the GitHub repository.
 Extract the plugin files to the <strong>/blocks/apvaardig_digitap</strong> directory in your Moodle installation.
 Log in to your Moodle site as an administrator and go to Site administration > Notifications.
 Follow the on-screen instructions to install the plugin.
