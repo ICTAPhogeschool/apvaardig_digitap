@@ -1,37 +1,39 @@
-# Apvaardig_digitap
+# Moodle quiz reporting block
 ## Scheme
  ![plug-in scheme](./docs/img/apvaardig_digitap.drawio.png)
-## Apvaardig  digitap  Moodle plug-in
-Moodle Plugin block <strong>apvaardig_digitap</strong> is a plugin block for Moodle that adds functionality to the Moodle platform.
+## Moodle quiz reporting block Moodle plug-in
+The <strong>Moodle quiz reporting block</strong> is a block type plugin for Moodle that shows selected quiz results in a userfriendly dashboard to the students.
 
-Installation
-Download the plugin from the GitHub repository.
-Extract the plugin files to the <strong>/blocks/apvaardig_digitap</strong> directory in your Moodle installation.
-Log in to your Moodle site as an administrator and go to Site administration > Notifications.
-Follow the on-screen instructions to install the plugin.
-Usage
-Moodle Plugin Name adds a new feature to the Moodle platform. To use the feature, follow these steps:
+## Installation
+- Download the plugin from the GitHub repository.
+- Extract the plugin files to the <strong>/blocks/apvaardig_digitap</strong> directory in your Moodle installation.
+- Log in to your Moodle site as an administrator and go to Site administration > Notifications.
+- Follow the on-screen instructions to install the plugin.
 
-Navigate to the page where you want to use the feature.
-Click on the button to activate the feature.
-Follow the on-screen instructions to use the feature.
-Configuration
-Moodle Plugin Name can be configured using the settings page in the Moodle administration panel. To access the settings page, follow these steps:
+## Usage
+This Moodle plugin adds new block to your Moodle platform. You can add the block to any page you want. Depending on the configuration settings the results from the selected quizzes are displayed to the user
+
+## Configuration
+The block settings can be be configured using the settings page in the Moodle administration panel. To access the settings page, follow these steps:
 
 Log in to your Moodle site as an administrator.
-Go to Site administration > Plugins > Local plugins > Moodle Plugin Name.
+Go to Site administration > Plugins > Blocks > Moodle quiz reporting block.
 Configure the settings as desired.
 Click Save changes to save the settings.
-Support
-If you encounter any issues or have any questions about Moodle Plugin Name, please contact the plugin developer at <strong>John S.</strong> p056948@ap.be.
-# Settings
+
 Configuration of connection to the extern database. If you have any issue with the connection please check first the firewall. 
  ![plug-in scheme](./docs/img/plugin_settings.png)
-## Plugin-settings
-# Data model
+
+### Data model
 This plug-in use automapper-plus as extra library to map Models and ModelDtos.
 <br>
 [Go to the automapper repository](https://github.com/mark-gerarts/automapper-plus)
+
+## Support
+If you encounter any issues or have any questions about Moodle Plugin Name, please create an issue in the git repo.
+
+
+
 
 ## Models and ModelDtos
 ## Extern data Model from database
