@@ -1,4 +1,7 @@
 # Apvaardig_digitap
+## scheme
+ ![plug-in scheme](./docs/img/apvaardig_digitap.drawio.png)
+## Apvaardig  digitap  Moodle plug-in
 Moodle Plugin block <strong>apvaardig_digitap</strong> is a plugin block for Moodle that adds functionality to the Moodle platform.
 
 Installation
