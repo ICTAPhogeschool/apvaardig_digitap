@@ -7,7 +7,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace block_apvaardig_digitap\helpers\user;
+namespace quiz_reporting_block\helpers\user;
 
 class BlockUser implements IBlockUser {
     public function getSamAccount():?string{

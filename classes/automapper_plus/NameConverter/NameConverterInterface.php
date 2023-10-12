@@ -1,8 +1,8 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\NameConverter;
+namespace quiz_reporting_block\automapper_plus\NameConverter;
 
-use block_apvaardig_digitap\automapper_plus\NameConverter\NamingConvention\NamingConventionInterface;
+use quiz_reporting_block\automapper_plus\NameConverter\NamingConvention\NamingConventionInterface;
 
 /**
  * Interface NameResolverInterface

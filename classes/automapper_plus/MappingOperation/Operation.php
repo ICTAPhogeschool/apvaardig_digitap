@@ -1,14 +1,14 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\MappingOperation;
+namespace quiz_reporting_block\automapper_plus\MappingOperation;
 
-use block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations\FromProperty;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations\Ignore;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations\MapFrom;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations\MapFromWithMapper;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations\MapTo;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations\MapToAnyOf;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations\SetTo;
+use quiz_reporting_block\automapper_plus\MappingOperation\Implementations\FromProperty;
+use quiz_reporting_block\automapper_plus\MappingOperation\Implementations\Ignore;
+use quiz_reporting_block\automapper_plus\MappingOperation\Implementations\MapFrom;
+use quiz_reporting_block\automapper_plus\MappingOperation\Implementations\MapFromWithMapper;
+use quiz_reporting_block\automapper_plus\MappingOperation\Implementations\MapTo;
+use quiz_reporting_block\automapper_plus\MappingOperation\Implementations\MapToAnyOf;
+use quiz_reporting_block\automapper_plus\MappingOperation\Implementations\SetTo;
 
 /**
  * Class Operation

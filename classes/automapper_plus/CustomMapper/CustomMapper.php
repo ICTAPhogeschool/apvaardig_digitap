@@ -1,8 +1,8 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\CustomMapper;
+namespace quiz_reporting_block\automapper_plus\CustomMapper;
 
-use block_apvaardig_digitap\automapper_plus\MapperInterface;
+use quiz_reporting_block\automapper_plus\MapperInterface;
 
 /**
  * Interface CustomMapperInterface

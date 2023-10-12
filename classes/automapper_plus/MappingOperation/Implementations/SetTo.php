@@ -1,8 +1,8 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations;
+namespace quiz_reporting_block\automapper_plus\MappingOperation\Implementations;
 
-use block_apvaardig_digitap\automapper_plus\MappingOperation\DefaultMappingOperation;
+use quiz_reporting_block\automapper_plus\MappingOperation\DefaultMappingOperation;
 
 /**
  * Class SetTo

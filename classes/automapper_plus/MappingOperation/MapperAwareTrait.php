@@ -1,8 +1,8 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\MappingOperation;
+namespace quiz_reporting_block\automapper_plus\MappingOperation;
 
-use block_apvaardig_digitap\automapper_plus\AutoMapperInterface;
+use quiz_reporting_block\automapper_plus\AutoMapperInterface;
 
 /**
  * Trait MapperAwareTrait

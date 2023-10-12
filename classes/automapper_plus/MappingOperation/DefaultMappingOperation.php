@@ -1,11 +1,11 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\MappingOperation;
+namespace quiz_reporting_block\automapper_plus\MappingOperation;
 
-use block_apvaardig_digitap\automapper_plus\Configuration\Options;
-use block_apvaardig_digitap\automapper_plus\NameResolver\NameResolverInterface;
-use block_apvaardig_digitap\automapper_plus\PropertyAccessor\PropertyReaderInterface;
-use block_apvaardig_digitap\automapper_plus\PropertyAccessor\PropertyWriterInterface;
+use quiz_reporting_block\automapper_plus\Configuration\Options;
+use quiz_reporting_block\automapper_plus\NameResolver\NameResolverInterface;
+use quiz_reporting_block\automapper_plus\PropertyAccessor\PropertyReaderInterface;
+use quiz_reporting_block\automapper_plus\PropertyAccessor\PropertyWriterInterface;
 
 /**
  * Class DefaultMappingOperation

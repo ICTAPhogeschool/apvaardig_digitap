@@ -1,9 +1,9 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\NameResolver;
+namespace quiz_reporting_block\automapper_plus\NameResolver;
 
-use block_apvaardig_digitap\automapper_plus\Configuration\Options;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\MappingOperationInterface;
+use quiz_reporting_block\automapper_plus\Configuration\Options;
+use quiz_reporting_block\automapper_plus\MappingOperation\MappingOperationInterface;
 
 /**
  * Interface NameResolverInterface

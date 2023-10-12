@@ -7,14 +7,14 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace block_apvaardig_digitap\controllers\result;
+namespace quiz_reporting_block\controllers\result;
 use \stdClass;
 
 require_once($CFG->dirroot . '/user/profile/lib.php');
-use block_apvaardig_digitap\controllers\BaseController;
-use block_apvaardig_digitap\patterns\repository\result\ResultRepository;
+use quiz_reporting_block\controllers\BaseController;
+use quiz_reporting_block\patterns\repository\result\ResultRepository;
 // Dto Models
-use block_apvaardig_digitap\models\result\ResultDto;
+use quiz_reporting_block\models\result\ResultDto;
 
 class ResultController extends BaseController implements IResultController {
 
@@ -77,9 +77,9 @@ class ResultController extends BaseController implements IResultController {
         $resultData = $this->getMyResultsDto();
         $groupData = $this->groupByCategory($resultData);
         if(is_array($groupData) && !empty($groupData)){
-            return $OUTPUT->render_from_template("block_apvaardig_digitap/content", ['rootData'=>$groupData]);
+            return $OUTPUT->render_from_template("quiz_reporting_block/content", ['rootData'=>$groupData]);
         }
         //return json_encode($groupData);
-        return $OUTPUT->render_from_template("block_apvaardig_digitap/content_no_data", null);
+        return $OUTPUT->render_from_template("quiz_reporting_block/content_no_data", null);
     }
 }

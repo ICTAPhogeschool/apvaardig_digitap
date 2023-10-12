@@ -1,8 +1,8 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus;
+namespace quiz_reporting_block\automapper_plus;
 
-use block_apvaardig_digitap\automapper_plus\Exception\UnregisteredMappingException;
+use quiz_reporting_block\automapper_plus\Exception\UnregisteredMappingException;
 
 /**
  * Interface MapperInterface

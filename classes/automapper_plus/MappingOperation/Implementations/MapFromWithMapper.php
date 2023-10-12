@@ -1,6 +1,6 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations;
+namespace quiz_reporting_block\automapper_plus\MappingOperation\Implementations;
 
 /**
  * Class MapFromWithMapper

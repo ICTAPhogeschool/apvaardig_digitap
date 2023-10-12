@@ -6,7 +6,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace block_apvaardig_digitap\patterns\repository\result;
+namespace quiz_reporting_block\patterns\repository\result;
 
 interface IResultRepository {
     public function getAllResultsBySam(string $samAcount):array;

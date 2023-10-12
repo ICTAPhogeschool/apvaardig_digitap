@@ -1,19 +1,19 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\Configuration;
+namespace quiz_reporting_block\automapper_plus\Configuration;
 
-use block_apvaardig_digitap\automapper_plus\DataType;
-use block_apvaardig_digitap\automapper_plus\Exception\NoConstructorSetException;
-use block_apvaardig_digitap\automapper_plus\Exception\UnregisteredMappingException;
-use block_apvaardig_digitap\automapper_plus\MapperInterface;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\MappingOperationInterface;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\Operation;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\Reversible;
-use block_apvaardig_digitap\automapper_plus\NameConverter\NameConverter;
-use block_apvaardig_digitap\automapper_plus\NameConverter\NamingConvention\NamingConventionInterface;
-use block_apvaardig_digitap\automapper_plus\NameResolver\NameResolverInterface;
-use block_apvaardig_digitap\automapper_plus\PropertyAccessor\ArrayPropertyReader;
-use block_apvaardig_digitap\automapper_plus\PropertyAccessor\ObjectCratePropertyWriter;
+use quiz_reporting_block\automapper_plus\DataType;
+use quiz_reporting_block\automapper_plus\Exception\NoConstructorSetException;
+use quiz_reporting_block\automapper_plus\Exception\UnregisteredMappingException;
+use quiz_reporting_block\automapper_plus\MapperInterface;
+use quiz_reporting_block\automapper_plus\MappingOperation\MappingOperationInterface;
+use quiz_reporting_block\automapper_plus\MappingOperation\Operation;
+use quiz_reporting_block\automapper_plus\MappingOperation\Reversible;
+use quiz_reporting_block\automapper_plus\NameConverter\NameConverter;
+use quiz_reporting_block\automapper_plus\NameConverter\NamingConvention\NamingConventionInterface;
+use quiz_reporting_block\automapper_plus\NameResolver\NameResolverInterface;
+use quiz_reporting_block\automapper_plus\PropertyAccessor\ArrayPropertyReader;
+use quiz_reporting_block\automapper_plus\PropertyAccessor\ObjectCratePropertyWriter;
 
 /**
  * Class Mapping

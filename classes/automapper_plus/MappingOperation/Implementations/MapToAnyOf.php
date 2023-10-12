@@ -1,13 +1,13 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations;
+namespace quiz_reporting_block\automapper_plus\MappingOperation\Implementations;
 
-use block_apvaardig_digitap\automapper_plus\Exception\UnregisteredMappingException;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\ContextAwareOperation;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\ContextAwareTrait;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\DefaultMappingOperation;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\MapperAwareOperation;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\MapperAwareTrait;
+use quiz_reporting_block\automapper_plus\Exception\UnregisteredMappingException;
+use quiz_reporting_block\automapper_plus\MappingOperation\ContextAwareOperation;
+use quiz_reporting_block\automapper_plus\MappingOperation\ContextAwareTrait;
+use quiz_reporting_block\automapper_plus\MappingOperation\DefaultMappingOperation;
+use quiz_reporting_block\automapper_plus\MappingOperation\MapperAwareOperation;
+use quiz_reporting_block\automapper_plus\MappingOperation\MapperAwareTrait;
 
 /**
  * Class MapToAnyOf.

@@ -1,9 +1,9 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations;
+namespace quiz_reporting_block\automapper_plus\MappingOperation\Implementations;
 
-use block_apvaardig_digitap\automapper_plus\Configuration\Options;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\MappingOperationInterface;
+use quiz_reporting_block\automapper_plus\Configuration\Options;
+use quiz_reporting_block\automapper_plus\MappingOperation\MappingOperationInterface;
 
 /**
  * Class Ignore

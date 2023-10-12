@@ -1,17 +1,17 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\MappingOperation\Implementations;
+namespace quiz_reporting_block\automapper_plus\MappingOperation\Implementations;
 
-use block_apvaardig_digitap\automapper_plus\AutoMapperInterface;
-use block_apvaardig_digitap\automapper_plus\Configuration\Options;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\AlternativePropertyProvider;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\DefaultMappingOperation;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\MapperAwareOperation;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\MappingOperationInterface;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\Reversible;
-use block_apvaardig_digitap\automapper_plus\NameResolver\CallbackNameResolver;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\ContextAwareOperation;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\ContextAwareTrait;
+use quiz_reporting_block\automapper_plus\AutoMapperInterface;
+use quiz_reporting_block\automapper_plus\Configuration\Options;
+use quiz_reporting_block\automapper_plus\MappingOperation\AlternativePropertyProvider;
+use quiz_reporting_block\automapper_plus\MappingOperation\DefaultMappingOperation;
+use quiz_reporting_block\automapper_plus\MappingOperation\MapperAwareOperation;
+use quiz_reporting_block\automapper_plus\MappingOperation\MappingOperationInterface;
+use quiz_reporting_block\automapper_plus\MappingOperation\Reversible;
+use quiz_reporting_block\automapper_plus\NameResolver\CallbackNameResolver;
+use quiz_reporting_block\automapper_plus\MappingOperation\ContextAwareOperation;
+use quiz_reporting_block\automapper_plus\MappingOperation\ContextAwareTrait;
 
 /**
  * Class FromProperty

@@ -6,15 +6,15 @@
  * @copyright 2023, Santacruz John, AP Hogeschool
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-namespace block_apvaardig_digitap\controllers;
+namespace quiz_reporting_block\controllers;
 // Automapper
-use block_apvaardig_digitap\automapper_plus\Configuration\AutoMapperConfig;
-use block_apvaardig_digitap\automapper_plus\AutoMapper;
+use quiz_reporting_block\automapper_plus\Configuration\AutoMapperConfig;
+use quiz_reporting_block\automapper_plus\AutoMapper;
 use \stdClass;
 // DB Models
-use block_apvaardig_digitap\models\result\ResultDto;
+use quiz_reporting_block\models\result\ResultDto;
 // Helpers/service
-use block_apvaardig_digitap\helpers\user\BlockUser;
+use quiz_reporting_block\helpers\user\BlockUser;
 
 abstract class BaseController{
     protected $_mapper;

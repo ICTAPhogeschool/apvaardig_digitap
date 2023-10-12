@@ -6,14 +6,14 @@
  * @copyright 2023, Santacruz John, AP Hogeschool
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-namespace block_apvaardig_digitap\patterns\repository;
-use block_apvaardig_digitap\custom_db_connector\CustomDBConnector;
+namespace quiz_reporting_block\patterns\repository;
+use quiz_reporting_block\custom_db_connector\CustomDBConnector;
 // Automapper
-use block_apvaardig_digitap\automapper_plus\Configuration\AutoMapperConfig;
-use block_apvaardig_digitap\automapper_plus\AutoMapper;
+use quiz_reporting_block\automapper_plus\Configuration\AutoMapperConfig;
+use quiz_reporting_block\automapper_plus\AutoMapper;
 use \stdClass;
 // DB Models
-use block_apvaardig_digitap\models\result\ResultModel;
+use quiz_reporting_block\models\result\ResultModel;
 
 
 abstract class BaseRepository{

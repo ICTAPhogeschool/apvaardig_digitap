@@ -2,14 +2,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 require_once($CFG->dirroot . '/user/profile/lib.php');
-use block_apvaardig_digitap\controllers\result\ResultController;
+use quiz_reporting_block\controllers\result\ResultController;
 
-class block_apvaardig_digitap extends block_base {
+class quiz_reporting_block extends block_base {
 
     public function get_required_javascript() {
     }
     public function init(){
-        $this -> title = get_string('titel','block_apvaardig_digitap');
+        $this -> title = get_string('titel','quiz_reporting_block');
     }
 
     public function get_content() {

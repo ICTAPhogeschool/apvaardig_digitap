@@ -1,8 +1,8 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\Exception;
+namespace quiz_reporting_block\automapper_plus\Exception;
 
-use block_apvaardig_digitap\automapper_plus\Configuration\MappingInterface;
+use quiz_reporting_block\automapper_plus\Configuration\MappingInterface;
 
 /**
  * Class NoConstructorSetException

@@ -1,16 +1,16 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus;
+namespace quiz_reporting_block\automapper_plus;
 
-use block_apvaardig_digitap\automapper_plus\Configuration\AutoMapperConfig;
-use block_apvaardig_digitap\automapper_plus\Configuration\AutoMapperConfigInterface;
-use block_apvaardig_digitap\automapper_plus\Configuration\MappingInterface;
-use block_apvaardig_digitap\automapper_plus\Exception\AutoMapperPlusException;
-use block_apvaardig_digitap\automapper_plus\Exception\InvalidArgumentException;
-use block_apvaardig_digitap\automapper_plus\Exception\UnregisteredMappingException;
-use block_apvaardig_digitap\automapper_plus\Exception\UnsupportedSourceTypeException;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\ContextAwareOperation;
-use block_apvaardig_digitap\automapper_plus\MappingOperation\MapperAwareOperation;
+use quiz_reporting_block\automapper_plus\Configuration\AutoMapperConfig;
+use quiz_reporting_block\automapper_plus\Configuration\AutoMapperConfigInterface;
+use quiz_reporting_block\automapper_plus\Configuration\MappingInterface;
+use quiz_reporting_block\automapper_plus\Exception\AutoMapperPlusException;
+use quiz_reporting_block\automapper_plus\Exception\InvalidArgumentException;
+use quiz_reporting_block\automapper_plus\Exception\UnregisteredMappingException;
+use quiz_reporting_block\automapper_plus\Exception\UnsupportedSourceTypeException;
+use quiz_reporting_block\automapper_plus\MappingOperation\ContextAwareOperation;
+use quiz_reporting_block\automapper_plus\MappingOperation\MapperAwareOperation;
 
 /**
  * Class AutoMapper

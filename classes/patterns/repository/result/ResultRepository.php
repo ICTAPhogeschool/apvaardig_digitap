@@ -6,10 +6,10 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace block_apvaardig_digitap\patterns\repository\result;
+namespace quiz_reporting_block\patterns\repository\result;
 
-use block_apvaardig_digitap\patterns\repository\BaseRepository;
-use block_apvaardig_digitap\models\result\ResultModel;
+use quiz_reporting_block\patterns\repository\BaseRepository;
+use quiz_reporting_block\models\result\ResultModel;
 
 class ResultRepository extends BaseRepository implements IResultRepository{
     public function __construct(){

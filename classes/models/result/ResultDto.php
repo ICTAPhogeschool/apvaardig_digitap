@@ -7,7 +7,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace block_apvaardig_digitap\models\result;
+namespace quiz_reporting_block\models\result;
 
 class ResultDto {
     //public ?string $sam;

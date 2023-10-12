@@ -5,7 +5,7 @@
  * @copyright 2023, Santacruz John, AP Hogeschool
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-namespace block_apvaardig_digitap\controllers\result;
+namespace quiz_reporting_block\controllers\result;
 
 interface IResultController{
     public function getMyResultsDto():array;

@@ -1,6 +1,6 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus\Exception;
+namespace quiz_reporting_block\automapper_plus\Exception;
 
 /**
  * Class InvalidPropertyException

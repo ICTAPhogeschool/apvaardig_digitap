@@ -1,6 +1,6 @@
 <?php
 
-namespace block_apvaardig_digitap\automapper_plus;
+namespace quiz_reporting_block\automapper_plus;
 
 /**
  * Interface MapperAware

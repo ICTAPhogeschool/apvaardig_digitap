@@ -6,7 +6,7 @@
  * @copyright 2023, Santacruz John, AP Hogeschool
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-namespace block_apvaardig_digitap\custom_db_connector;
+namespace quiz_reporting_block\custom_db_connector;
 require_once($CFG->dirroot . '/user/profile/lib.php');
 
 use mysqli;
@@ -14,7 +14,7 @@ use mysqli;
 class CustomDBConnector extends mysqli {
     public function __construct() {
         parent::init();
-        $pluginName='block_apvaardig_digitap';
+        $pluginName='quiz_reporting_block';
 
         $db_user        = get_config($pluginName, 'databaseUser');
         $db_pwd         = get_config($pluginName, 'databasePass');
