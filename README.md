@@ -21,7 +21,7 @@ Configure the settings as desired.
 Click Save changes to save the settings.
 
 Configuration of connection to the extern database. If you have any issue with the connection please check first the firewall. 
- ![plug-in scheme](./docs/img/plugin_settings.png)
+ ![plug-in scheme](./docs/img/quiz_reporting_block_settings.png)
 
 ## Data model
 This plug-in use automapper-plus as extra library to map Models and ModelDtos.
