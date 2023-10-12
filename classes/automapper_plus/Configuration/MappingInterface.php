@@ -1,13 +1,13 @@
 <?php
 
-namespace quiz_reporting_block\automapper_plus\Configuration;
+namespace block_quiz_reporting\automapper_plus\Configuration;
 
-use quiz_reporting_block\automapper_plus\Exception\NoConstructorSetException;
-use quiz_reporting_block\automapper_plus\Exception\UnregisteredMappingException;
-use quiz_reporting_block\automapper_plus\MapperInterface;
-use quiz_reporting_block\automapper_plus\MappingOperation\MappingOperationInterface;
-use quiz_reporting_block\automapper_plus\NameConverter\NamingConvention\NamingConventionInterface;
-use quiz_reporting_block\automapper_plus\NameResolver\NameResolverInterface;
+use block_quiz_reporting\automapper_plus\Exception\NoConstructorSetException;
+use block_quiz_reporting\automapper_plus\Exception\UnregisteredMappingException;
+use block_quiz_reporting\automapper_plus\MapperInterface;
+use block_quiz_reporting\automapper_plus\MappingOperation\MappingOperationInterface;
+use block_quiz_reporting\automapper_plus\NameConverter\NamingConvention\NamingConventionInterface;
+use block_quiz_reporting\automapper_plus\NameResolver\NameResolverInterface;
 
 /**
  * Interface MappingInterface

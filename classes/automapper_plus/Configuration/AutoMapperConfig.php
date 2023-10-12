@@ -1,8 +1,8 @@
 <?php
 
-namespace  quiz_reporting_block\automapper_plus\Configuration;
-use  quiz_reporting_block\automapper_plus\Configuration\AutoMapperConfigInterface;
-use  quiz_reporting_block\automapper_plus\Configuration\Options;
+namespace  block_quiz_reporting\automapper_plus\Configuration;
+use  block_quiz_reporting\automapper_plus\Configuration\AutoMapperConfigInterface;
+use  block_quiz_reporting\automapper_plus\Configuration\Options;
 /**
  * Class AutoMapperConfig
  *

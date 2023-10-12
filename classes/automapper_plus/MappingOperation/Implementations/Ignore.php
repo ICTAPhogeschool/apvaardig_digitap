@@ -1,9 +1,9 @@
 <?php
 
-namespace quiz_reporting_block\automapper_plus\MappingOperation\Implementations;
+namespace block_quiz_reporting\automapper_plus\MappingOperation\Implementations;
 
-use quiz_reporting_block\automapper_plus\Configuration\Options;
-use quiz_reporting_block\automapper_plus\MappingOperation\MappingOperationInterface;
+use block_quiz_reporting\automapper_plus\Configuration\Options;
+use block_quiz_reporting\automapper_plus\MappingOperation\MappingOperationInterface;
 
 /**
  * Class Ignore

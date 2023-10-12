@@ -1,6 +1,6 @@
 <?php
 
-namespace quiz_reporting_block\automapper_plus\NameConverter\NamingConvention;
+namespace block_quiz_reporting\automapper_plus\NameConverter\NamingConvention;
 
 /**
  * Interface NamingConventionInterface

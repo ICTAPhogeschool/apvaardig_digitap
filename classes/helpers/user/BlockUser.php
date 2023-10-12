@@ -2,12 +2,12 @@
 /**
  * 
  * Class model
- * @package block_apvaardig_digiap
+ * @package block_quiz_reporting
  * @copyright 2023, Santacruz John, AP Hogeschool
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace quiz_reporting_block\helpers\user;
+namespace block_quiz_reporting\helpers\user;
 
 class BlockUser implements IBlockUser {
     public function getSamAccount():?string{

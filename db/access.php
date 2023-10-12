@@ -2,7 +2,7 @@
 defined('MOODLE_INTERNAL') || die();
     $capabilities = array(
  
-    'block/apvaardig_digitap:myaddinstance' => array(
+    'block/quiz_reporting:myaddinstance' => array(
         'captype' => 'write',
         'contextlevel' => CONTEXT_SYSTEM,
         'archetypes' => array(
@@ -12,7 +12,7 @@ defined('MOODLE_INTERNAL') || die();
         'clonepermissionsfrom' => 'moodle/my:manageblocks'
     ),
  
-    'block/apvaardig_digitap:addinstance' => array(
+    'block/quiz_reporting:addinstance' => array(
         'riskbitmask' => RISK_SPAM | RISK_XSS,
  
         'captype' => 'write',
@@ -24,7 +24,7 @@ defined('MOODLE_INTERNAL') || die();
  
         'clonepermissionsfrom' => 'moodle/site:manageblocks'
     ),
-    'block/apvaardig_digitap:apvaardig_digitap_manager' => array(
+    'block/quiz_reporting:quiz_reporting_manager' => array(
 
         'riskbitmask' => RISK_SPAM,
 

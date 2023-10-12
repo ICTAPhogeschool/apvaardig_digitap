@@ -2,12 +2,12 @@
 /**
  * 
  * Class model
- * @package block_apvaardig_digiap
+ * @package block_quiz_reporting
  * @copyright 2023, Santacruz John, AP Hogeschool
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace quiz_reporting_block\models\result;
+namespace block_quiz_reporting\models\result;
 
 class ResultModel {
     public ?string $uniq;

@@ -2,19 +2,19 @@
 /**
  * 
  * Class model
- * @package block_apvaardig_digiap
+ * @package block_quiz_reporting
  * @copyright 2023, Santacruz John, AP Hogeschool
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace quiz_reporting_block\controllers\result;
+namespace block_quiz_reporting\controllers\result;
 use \stdClass;
 
 require_once($CFG->dirroot . '/user/profile/lib.php');
-use quiz_reporting_block\controllers\BaseController;
-use quiz_reporting_block\patterns\repository\result\ResultRepository;
+use block_quiz_reporting\controllers\BaseController;
+use block_quiz_reporting\patterns\repository\result\ResultRepository;
 // Dto Models
-use quiz_reporting_block\models\result\ResultDto;
+use block_quiz_reporting\models\result\ResultDto;
 
 class ResultController extends BaseController implements IResultController {
 
@@ -77,9 +77,9 @@ class ResultController extends BaseController implements IResultController {
         $resultData = $this->getMyResultsDto();
         $groupData = $this->groupByCategory($resultData);
         if(is_array($groupData) && !empty($groupData)){
-            return $OUTPUT->render_from_template("quiz_reporting_block/content", ['rootData'=>$groupData]);
+            return $OUTPUT->render_from_template("quiz_reporting/content", ['rootData'=>$groupData]);
         }
         //return json_encode($groupData);
-        return $OUTPUT->render_from_template("quiz_reporting_block/content_no_data", null);
+        return $OUTPUT->render_from_template("quiz_reporting/content_no_data", null);
     }
 }

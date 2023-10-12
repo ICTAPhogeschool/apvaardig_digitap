@@ -1,6 +1,6 @@
 <?php
 
-namespace quiz_reporting_block\automapper_plus\Exception;
+namespace block_quiz_reporting\automapper_plus\Exception;
 
 /**
  * Class UnregisteredMappingException

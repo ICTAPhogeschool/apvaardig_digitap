@@ -1,17 +1,17 @@
 <?php
 
-namespace quiz_reporting_block\automapper_plus\Configuration;
+namespace block_quiz_reporting\automapper_plus\Configuration;
 
-use quiz_reporting_block\automapper_plus\MapperInterface;
-use quiz_reporting_block\automapper_plus\MappingOperation\DefaultMappingOperation;
-use quiz_reporting_block\automapper_plus\MappingOperation\MappingOperationInterface;
-use quiz_reporting_block\automapper_plus\NameConverter\NamingConvention\NamingConventionInterface;
-use quiz_reporting_block\automapper_plus\NameResolver\NameResolver;
-use quiz_reporting_block\automapper_plus\NameResolver\NameResolverInterface;
-use quiz_reporting_block\automapper_plus\PropertyAccessor\PropertyAccessor;
-use quiz_reporting_block\automapper_plus\PropertyAccessor\PropertyAccessorInterface;
-use quiz_reporting_block\automapper_plus\PropertyAccessor\PropertyReaderInterface;
-use quiz_reporting_block\automapper_plus\PropertyAccessor\PropertyWriterInterface;
+use block_quiz_reporting\automapper_plus\MapperInterface;
+use block_quiz_reporting\automapper_plus\MappingOperation\DefaultMappingOperation;
+use block_quiz_reporting\automapper_plus\MappingOperation\MappingOperationInterface;
+use block_quiz_reporting\automapper_plus\NameConverter\NamingConvention\NamingConventionInterface;
+use block_quiz_reporting\automapper_plus\NameResolver\NameResolver;
+use block_quiz_reporting\automapper_plus\NameResolver\NameResolverInterface;
+use block_quiz_reporting\automapper_plus\PropertyAccessor\PropertyAccessor;
+use block_quiz_reporting\automapper_plus\PropertyAccessor\PropertyAccessorInterface;
+use block_quiz_reporting\automapper_plus\PropertyAccessor\PropertyReaderInterface;
+use block_quiz_reporting\automapper_plus\PropertyAccessor\PropertyWriterInterface;
 
 /**
  * Class Options

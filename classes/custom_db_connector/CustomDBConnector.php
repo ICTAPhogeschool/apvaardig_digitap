@@ -2,11 +2,11 @@
 /**
  * 
  * Class model
- * @package block_apvaardig_digiap
+ * @package block_quiz_reporting
  * @copyright 2023, Santacruz John, AP Hogeschool
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-namespace quiz_reporting_block\custom_db_connector;
+namespace block_quiz_reporting\custom_db_connector;
 require_once($CFG->dirroot . '/user/profile/lib.php');
 
 use mysqli;
@@ -14,7 +14,7 @@ use mysqli;
 class CustomDBConnector extends mysqli {
     public function __construct() {
         parent::init();
-        $pluginName='quiz_reporting_block';
+        $pluginName='quiz_reporting';
 
         $db_user        = get_config($pluginName, 'databaseUser');
         $db_pwd         = get_config($pluginName, 'databasePass');

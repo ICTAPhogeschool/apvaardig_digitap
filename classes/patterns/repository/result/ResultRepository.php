@@ -1,15 +1,15 @@
 <?php
 /**
  * Class model
- * @package block_apvaardig_digiap
+ * @package block_quiz_reporting
  * @copyright 2023, Santacruz John, AP Hogeschool
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace quiz_reporting_block\patterns\repository\result;
+namespace block_quiz_reporting\patterns\repository\result;
 
-use quiz_reporting_block\patterns\repository\BaseRepository;
-use quiz_reporting_block\models\result\ResultModel;
+use block_quiz_reporting\patterns\repository\BaseRepository;
+use block_quiz_reporting\models\result\ResultModel;
 
 class ResultRepository extends BaseRepository implements IResultRepository{
     public function __construct(){

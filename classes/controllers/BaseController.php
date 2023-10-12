@@ -2,19 +2,19 @@
 /**
  * 
  * Class model
- * @package block_apvaardig_digiap
+ * @package block_quiz_reporting
  * @copyright 2023, Santacruz John, AP Hogeschool
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-namespace quiz_reporting_block\controllers;
+namespace block_quiz_reporting\controllers;
 // Automapper
-use quiz_reporting_block\automapper_plus\Configuration\AutoMapperConfig;
-use quiz_reporting_block\automapper_plus\AutoMapper;
+use block_quiz_reporting\automapper_plus\Configuration\AutoMapperConfig;
+use block_quiz_reporting\automapper_plus\AutoMapper;
 use \stdClass;
 // DB Models
-use quiz_reporting_block\models\result\ResultDto;
+use block_quiz_reporting\models\result\ResultDto;
 // Helpers/service
-use quiz_reporting_block\helpers\user\BlockUser;
+use block_quiz_reporting\helpers\user\BlockUser;
 
 abstract class BaseController{
     protected $_mapper;

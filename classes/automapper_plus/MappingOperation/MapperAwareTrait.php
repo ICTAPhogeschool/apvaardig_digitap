@@ -1,8 +1,8 @@
 <?php
 
-namespace quiz_reporting_block\automapper_plus\MappingOperation;
+namespace block_quiz_reporting\automapper_plus\MappingOperation;
 
-use quiz_reporting_block\automapper_plus\AutoMapperInterface;
+use block_quiz_reporting\automapper_plus\AutoMapperInterface;
 
 /**
  * Trait MapperAwareTrait

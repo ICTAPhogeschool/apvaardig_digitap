@@ -2,14 +2,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 require_once($CFG->dirroot . '/user/profile/lib.php');
-use quiz_reporting_block\controllers\result\ResultController;
+use block_quiz_reporting\controllers\result\ResultController;
 
-class quiz_reporting_block extends block_base {
+class block_quiz_reporting extends block_base {
 
     public function get_required_javascript() {
     }
     public function init(){
-        $this -> title = get_string('titel','quiz_reporting_block');
+        $this -> title = get_string('titel','quiz_reporting');
     }
 
     public function get_content() {

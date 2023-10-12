@@ -5,7 +5,7 @@ The <strong>Moodle quiz reporting block</strong> is a block type plugin for Mood
 
 ## Installation
 - Download the plugin from the GitHub repository.
-- Extract the plugin files to the <strong>/blocks/quiz_reporting_block</strong> directory in your Moodle installation.
+- Extract the plugin files to the <strong>/blocks/quiz_reporting</strong> directory in your Moodle installation.
 - Log in to your Moodle site as an administrator and go to Site administration > Notifications.
 - Follow the on-screen instructions to install the plugin.
 
@@ -21,7 +21,7 @@ Configure the settings as desired.
 Click Save changes to save the settings.
 
 Configuration of connection to the extern database. If you have any issue with the connection please check first the firewall. 
- ![plug-in scheme](./docs/img/quiz_reporting_block_settings.png)
+ ![plug-in scheme](./docs/img/quiz_reporting_settings.png)
 
 ## Data model
 This plug-in use automapper-plus as extra library to map Models and ModelDtos.
@@ -29,7 +29,7 @@ This plug-in use automapper-plus as extra library to map Models and ModelDtos.
 [Go to the automapper repository](https://github.com/mark-gerarts/automapper-plus)
 
 ## Support
-If you encounter any issues or have any questions about quiz_reporting_block, please create an issue in the git repo.
+If you encounter any issues or have any questions about quiz_reporting, please create an issue in the git repo.
 
 ## Languages
 The default language of the plug-in is English but it is also compatible with Dutch. The language wil be change when the moodle framework has been global changed.
@@ -38,7 +38,7 @@ If you want this plug-in in an othre language, create then a directory with one 
 See Dutch(nl) file as example.
 
 ## License
-Moodle Plugin quiz_reporting_block is licensed under the GNU GPL v3 or later. See the LICENSE file for details.
+Moodle Plugin quiz_reporting is licensed under the GNU GPL v3 or later. See the LICENSE file for details.
 
 # Credits
 The quiz report block was developed by <strong>John S.</strong> and is maintained by <strong>John S.</strong>.

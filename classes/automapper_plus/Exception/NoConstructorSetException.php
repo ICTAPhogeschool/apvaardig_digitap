@@ -1,8 +1,8 @@
 <?php
 
-namespace quiz_reporting_block\automapper_plus\Exception;
+namespace block_quiz_reporting\automapper_plus\Exception;
 
-use quiz_reporting_block\automapper_plus\Configuration\MappingInterface;
+use block_quiz_reporting\automapper_plus\Configuration\MappingInterface;
 
 /**
  * Class NoConstructorSetException

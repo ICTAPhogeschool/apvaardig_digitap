@@ -1,11 +1,11 @@
 <?php
 
-namespace quiz_reporting_block\automapper_plus\MappingOperation;
+namespace block_quiz_reporting\automapper_plus\MappingOperation;
 
-use quiz_reporting_block\automapper_plus\Configuration\Options;
-use quiz_reporting_block\automapper_plus\NameResolver\NameResolverInterface;
-use quiz_reporting_block\automapper_plus\PropertyAccessor\PropertyReaderInterface;
-use quiz_reporting_block\automapper_plus\PropertyAccessor\PropertyWriterInterface;
+use block_quiz_reporting\automapper_plus\Configuration\Options;
+use block_quiz_reporting\automapper_plus\NameResolver\NameResolverInterface;
+use block_quiz_reporting\automapper_plus\PropertyAccessor\PropertyReaderInterface;
+use block_quiz_reporting\automapper_plus\PropertyAccessor\PropertyWriterInterface;
 
 /**
  * Class DefaultMappingOperation

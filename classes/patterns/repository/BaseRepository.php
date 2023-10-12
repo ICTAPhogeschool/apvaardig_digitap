@@ -2,18 +2,18 @@
 /**
  * 
  * Class model
- * @package block_apvaardig_digiap
+ * @package block_quiz_reporting
  * @copyright 2023, Santacruz John, AP Hogeschool
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-namespace quiz_reporting_block\patterns\repository;
-use quiz_reporting_block\custom_db_connector\CustomDBConnector;
+namespace block_quiz_reporting\patterns\repository;
+use block_quiz_reporting\custom_db_connector\CustomDBConnector;
 // Automapper
-use quiz_reporting_block\automapper_plus\Configuration\AutoMapperConfig;
-use quiz_reporting_block\automapper_plus\AutoMapper;
+use block_quiz_reporting\automapper_plus\Configuration\AutoMapperConfig;
+use block_quiz_reporting\automapper_plus\AutoMapper;
 use \stdClass;
 // DB Models
-use quiz_reporting_block\models\result\ResultModel;
+use block_quiz_reporting\models\result\ResultModel;
 
 
 abstract class BaseRepository{

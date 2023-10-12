@@ -1,8 +1,8 @@
 <?php
 
-namespace quiz_reporting_block\automapper_plus\MappingOperation\Implementations;
+namespace block_quiz_reporting\automapper_plus\MappingOperation\Implementations;
 
-use quiz_reporting_block\automapper_plus\MappingOperation\DefaultMappingOperation;
+use block_quiz_reporting\automapper_plus\MappingOperation\DefaultMappingOperation;
 
 /**
  * Class SetTo

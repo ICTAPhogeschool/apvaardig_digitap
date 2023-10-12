@@ -1,10 +1,10 @@
 <?php
-$string['pluginname']                               = 'Apvaardig digitap Block';
-$string['useful_links']                             = 'Apvaardig';
+$string['pluginname']                               = 'reporting Block';
+$string['useful_links']                             = 'reporting';
 $string['titel']                                    = 'Jou resultaten';
-$string['useful_links:addinstance']                 = 'Voeg nieuwe apvaardig block';
-$string['useful_links:myaddinstance']               = 'Voeg nieuwe apvaardig block to the My Moodle page';
-$string['useful_links:managelinks']                 = 'Voeg / Editeren apvaardig';
+$string['useful_links:addinstance']                 = 'Voeg nieuwe reporting block';
+$string['useful_links:myaddinstance']               = 'Voeg nieuwe reporting block to the My Moodle page';
+$string['useful_links:managelinks']                 = 'Voeg / Editeren reporting';
 
 // Block Edit global for admins
 $string['global_header1']                           = 'Global block instellingen';
