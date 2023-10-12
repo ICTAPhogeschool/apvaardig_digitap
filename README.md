@@ -41,4 +41,4 @@ See Dutch(nl) file as example.
 Moodle Plugin quiz_reporting_block is licensed under the GNU GPL v3 or later. See the LICENSE file for details.
 
 # Credits
-Moodle Plugin apvaardig_digitap was developed by <strong>John S.</strong> and is maintained by <strong>John S.</strong>.
+The quiz report block was developed by <strong>John S.</strong> and is maintained by <strong>John S.</strong>.
