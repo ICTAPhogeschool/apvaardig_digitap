@@ -9,7 +9,7 @@ class block_quiz_reporting extends block_base {
     public function get_required_javascript() {
     }
     public function init(){
-        $this -> title = get_string('titel','quiz_reporting');
+        $this -> title = get_string('titel','block_quiz_reporting');
     }
 
     public function get_content() {

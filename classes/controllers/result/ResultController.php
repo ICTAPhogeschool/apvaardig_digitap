@@ -77,9 +77,9 @@ class ResultController extends BaseController implements IResultController {
         $resultData = $this->getMyResultsDto();
         $groupData = $this->groupByCategory($resultData);
         if(is_array($groupData) && !empty($groupData)){
-            return $OUTPUT->render_from_template("quiz_reporting/content", ['rootData'=>$groupData]);
+            return $OUTPUT->render_from_template("block_quiz_reporting/content", ['rootData'=>$groupData]);
         }
         //return json_encode($groupData);
-        return $OUTPUT->render_from_template("quiz_reporting/content_no_data", null);
+        return $OUTPUT->render_from_template("block_quiz_reporting/content_no_data", null);
     }
 }

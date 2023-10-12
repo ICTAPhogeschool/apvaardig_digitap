@@ -14,7 +14,7 @@ use mysqli;
 class CustomDBConnector extends mysqli {
     public function __construct() {
         parent::init();
-        $pluginName='quiz_reporting';
+        $pluginName='block_quiz_reporting';
 
         $db_user        = get_config($pluginName, 'databaseUser');
         $db_pwd         = get_config($pluginName, 'databasePass');

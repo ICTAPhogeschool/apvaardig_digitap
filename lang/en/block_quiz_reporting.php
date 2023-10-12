@@ -1,5 +1,5 @@
 <?php
-$string['pluginname']                               = 'quiz_reporting Block';
+$string['pluginname']                               = 'reporting Block';
 $string['useful_links']                             = 'reporting';
 $string['titel']                                    = 'Your results';
 $string['useful_links:addinstance']                 = 'Add a new reporting block';
