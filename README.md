@@ -1,12 +1,11 @@
 # Moodle quiz reporting block
-## Scheme
- ![plug-in scheme](./docs/img/apvaardig_digitap.drawio.png)
-## Moodle quiz reporting block Moodle plug-in
+
+## Moodle quiz reporting block
 The <strong>Moodle quiz reporting block</strong> is a block type plugin for Moodle that shows selected quiz results in a userfriendly dashboard to the students.
 
 ## Installation
 - Download the plugin from the GitHub repository.
-- Extract the plugin files to the <strong>/blocks/apvaardig_digitap</strong> directory in your Moodle installation.
+- Extract the plugin files to the <strong>/blocks/quiz_reporting_block</strong> directory in your Moodle installation.
 - Log in to your Moodle site as an administrator and go to Site administration > Notifications.
 - Follow the on-screen instructions to install the plugin.
 
@@ -24,62 +23,22 @@ Click Save changes to save the settings.
 Configuration of connection to the extern database. If you have any issue with the connection please check first the firewall. 
  ![plug-in scheme](./docs/img/plugin_settings.png)
 
-### Data model
+## Data model
 This plug-in use automapper-plus as extra library to map Models and ModelDtos.
 <br>
 [Go to the automapper repository](https://github.com/mark-gerarts/automapper-plus)
 
 ## Support
-If you encounter any issues or have any questions about Moodle Plugin Name, please create an issue in the git repo.
+If you encounter any issues or have any questions about quiz_reporting_block, please create an issue in the git repo.
 
-
-
-
-## Models and ModelDtos
-## Extern data Model from database
-This is the object or table row reponse model from the extern database.
-This is very important when the plug-in wil map to a modelDto object.
-The name and the property type is also very important.
-<br>
-<br>
-example for the result object from the database:
-
-```php
-class ResultModel {
-    public ?string $uniq;
-    public int $insert_timestamp;
-    public int $update_timestamp;
-    public ?string $sam;
-    public ?string $categorie;
-    public ?string $onderwerp;
-    public ?string $resultaat;
-    public int $punten_max;
-    public int $sortnr;
-}
-
-```
-## Intern data modelDto
-
-```php
-class ResultDto {
-    public ?string $categorie;
-    public ?string $onderwerp;
-    public ?string $resultaat;
-    public int $punten_max;
-    public bool $resultIsNumber = false;
-}
-
-```
-
-# Languages
-
+## Languages
 The default language of the plug-in is English but it is also compatible with Dutch. The language wil be change when the moodle framework has been global changed.
 If you want this plug-in in an othre language, create then a directory with one file in the <strong>lang</strong> directory.
 <br>
 See Dutch(nl) file as example.
 
-# License
-Moodle Plugin apvaardig_digitap is licensed under the GNU GPL v3 or later. See the LICENSE file for details.
+## License
+Moodle Plugin quiz_reporting_block is licensed under the GNU GPL v3 or later. See the LICENSE file for details.
 
 # Credits
 Moodle Plugin apvaardig_digitap was developed by <strong>John S.</strong> and is maintained by <strong>John S.</strong>.
